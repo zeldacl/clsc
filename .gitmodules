@@ -1,0 +1,6 @@
+[submodule "thirdparty/cl-protobufs"]
+	path = thirdparty/cl-protobufs
+	url = https://github.com/zeldacl/cl-protobufs.git
+[submodule "protocol/sc2"]
+	path = protocol/sc2
+	url = https://github.com/Blizzard/s2client-proto.git
