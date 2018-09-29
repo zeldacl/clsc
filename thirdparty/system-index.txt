@@ -1,0 +1,2 @@
+cl-protobufs/cl-protobufs.asd
+cl-protobufs/tests/cl-protobufs-tests.asd

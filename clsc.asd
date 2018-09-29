@@ -33,6 +33,14 @@
   ;;              (:file "package")
   ;;              (:file "clsc"))
   :defsystem-depends-on ((:version :cl-protobufs "1.0"))
-  :depends-on (:uiop :usocket :cl-protobufs :websocket-driver :log4cl :unix-opts))
+  :depends-on ("clsc/lab/dx/sc2/s2client/core"
+               :uiop
+               :usocket
+               :cl-protobufs
+               :websocket-driver
+               :log4cl
+               :bordeaux-threads
+               (:version :local-time "1.0.6")
+               :unix-opts))
 
 
